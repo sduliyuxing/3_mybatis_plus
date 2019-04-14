@@ -43,13 +43,13 @@ public class junit1 {
     public void test1(){
         person p = personmapper.selectById("aa");
         System.out.println(p);
-        List<Integer> list=new ArrayList<>();
+        List<Integer> list=new ArrayList<Integer>();
         list.add(1000);
         list.add(1001);
         list.add(1002);
         List<book> emp1 = bookmapper.selectBatchIds(list);
         System.out.println(emp1);
-        Map<String,Object> map=new HashMap<>();
+        Map<String,Object> map=new HashMap<String, Object>();
         map.put("money", 80);
         List<person> emp2 = personmapper.selectByMap(map);
         for(person p1:emp2){

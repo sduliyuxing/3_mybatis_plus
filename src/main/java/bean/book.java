@@ -13,7 +13,6 @@ import com.baomidou.mybatisplus.enums.IdType;
  * @Version 1.0.0
  * @Create 2018\9\12 0012 15:01
  */
-
 @TableName(value = "book")
 public class book {
     @TableId(value ="id",type = IdType.AUTO)
